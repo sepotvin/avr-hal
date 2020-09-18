@@ -14,6 +14,7 @@ pub extern crate paste;
 #[doc(hidden)]
 pub extern crate avr_device;
 
+pub mod atomic;
 pub mod clock;
 pub mod delay;
 pub mod port;
